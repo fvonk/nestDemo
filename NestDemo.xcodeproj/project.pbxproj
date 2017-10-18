@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284FD0341F99FD06007CA191 /* LogoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 284FD0331F99FD06007CA191 /* LogoutCell.m */; };
 		289BBD5F1F9774EF00B8AF26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD5E1F9774EF00B8AF26 /* AppDelegate.m */; };
-		289BBD621F9774EF00B8AF26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD611F9774EF00B8AF26 /* ViewController.m */; };
 		289BBD651F9774EF00B8AF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289BBD631F9774EF00B8AF26 /* Main.storyboard */; };
 		289BBD671F9774EF00B8AF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289BBD661F9774EF00B8AF26 /* Assets.xcassets */; };
 		289BBD6A1F9774EF00B8AF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289BBD681F9774EF00B8AF26 /* LaunchScreen.storyboard */; };
 		289BBD6D1F9774EF00B8AF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD6C1F9774EF00B8AF26 /* main.m */; };
 		289BBD771F9774EF00B8AF26 /* NestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD761F9774EF00B8AF26 /* NestDemoTests.m */; };
+		289BBD881F97A7ED00B8AF26 /* DevicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD871F97A7ED00B8AF26 /* DevicesTableViewController.m */; };
+		289BBD8B1F97AEDF00B8AF26 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD8A1F97AEDF00B8AF26 /* AccessToken.m */; };
+		289BBD8E1F97B0F500B8AF26 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD8D1F97B0F500B8AF26 /* LoginViewController.m */; };
+		289BBD921F97B2B900B8AF26 /* AuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD911F97B2B900B8AF26 /* AuthManager.m */; };
+		289BBD951F97B78800B8AF26 /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD941F97B78800B8AF26 /* RootNavigationViewController.m */; };
+		289BBD981F97C4B300B8AF26 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD971F97C4B300B8AF26 /* WebViewController.m */; };
+		289BBD9B1F98CBFC00B8AF26 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD9A1F98CBFC00B8AF26 /* SessionManager.m */; };
+		289BBD9D1F98CD2200B8AF26 /* Configs.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD9C1F98CD2200B8AF26 /* Configs.m */; };
+		289BBDA01F98E14F00B8AF26 /* Thermostat.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBD9F1F98E14F00B8AF26 /* Thermostat.m */; };
+		289BBDA31F98E15E00B8AF26 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBDA21F98E15E00B8AF26 /* Camera.m */; };
+		289BBDA61F98E1C400B8AF26 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBDA51F98E1C400B8AF26 /* Device.m */; };
+		289BBDA91F98F16500B8AF26 /* UIViewController+Spinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBDA81F98F16500B8AF26 /* UIViewController+Spinner.m */; };
+		289BBDAE1F98F7A900B8AF26 /* ThermostatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBDAD1F98F7A900B8AF26 /* ThermostatViewController.m */; };
+		289BBDB11F99E0C500B8AF26 /* ThermostatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BBDB01F99E0C500B8AF26 /* ThermostatManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284FD0321F99FD06007CA191 /* LogoutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoutCell.h; sourceTree = "<group>"; };
+		284FD0331F99FD06007CA191 /* LogoutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoutCell.m; sourceTree = "<group>"; };
 		289BBD5A1F9774EF00B8AF26 /* NestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		289BBD5D1F9774EF00B8AF26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		289BBD5E1F9774EF00B8AF26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		289BBD601F9774EF00B8AF26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		289BBD611F9774EF00B8AF26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		289BBD641F9774EF00B8AF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		289BBD661F9774EF00B8AF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		289BBD691F9774EF00B8AF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +54,34 @@
 		289BBD721F9774EF00B8AF26 /* NestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		289BBD761F9774EF00B8AF26 /* NestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestDemoTests.m; sourceTree = "<group>"; };
 		289BBD781F9774EF00B8AF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289BBD861F97A7ED00B8AF26 /* DevicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevicesTableViewController.h; sourceTree = "<group>"; };
+		289BBD871F97A7ED00B8AF26 /* DevicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevicesTableViewController.m; sourceTree = "<group>"; };
+		289BBD891F97AEDF00B8AF26 /* AccessToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		289BBD8A1F97AEDF00B8AF26 /* AccessToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		289BBD8C1F97B0F500B8AF26 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		289BBD8D1F97B0F500B8AF26 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		289BBD8F1F97B1B100B8AF26 /* Configs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configs.h; sourceTree = "<group>"; };
+		289BBD901F97B2B900B8AF26 /* AuthManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthManager.h; sourceTree = "<group>"; };
+		289BBD911F97B2B900B8AF26 /* AuthManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthManager.m; sourceTree = "<group>"; };
+		289BBD931F97B78800B8AF26 /* RootNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
+		289BBD941F97B78800B8AF26 /* RootNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
+		289BBD961F97C4B300B8AF26 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		289BBD971F97C4B300B8AF26 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		289BBD991F98CBFC00B8AF26 /* SessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		289BBD9A1F98CBFC00B8AF26 /* SessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		289BBD9C1F98CD2200B8AF26 /* Configs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Configs.m; sourceTree = "<group>"; };
+		289BBD9E1F98E14F00B8AF26 /* Thermostat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thermostat.h; sourceTree = "<group>"; };
+		289BBD9F1F98E14F00B8AF26 /* Thermostat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thermostat.m; sourceTree = "<group>"; };
+		289BBDA11F98E15E00B8AF26 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		289BBDA21F98E15E00B8AF26 /* Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		289BBDA41F98E1C400B8AF26 /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		289BBDA51F98E1C400B8AF26 /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		289BBDA71F98F16500B8AF26 /* UIViewController+Spinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Spinner.h"; sourceTree = "<group>"; };
+		289BBDA81F98F16500B8AF26 /* UIViewController+Spinner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Spinner.m"; sourceTree = "<group>"; };
+		289BBDAC1F98F7A900B8AF26 /* ThermostatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThermostatViewController.h; sourceTree = "<group>"; };
+		289BBDAD1F98F7A900B8AF26 /* ThermostatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatViewController.m; sourceTree = "<group>"; };
+		289BBDAF1F99E0C500B8AF26 /* ThermostatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThermostatManager.h; sourceTree = "<group>"; };
+		289BBDB01F99E0C500B8AF26 /* ThermostatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermostatManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +123,11 @@
 		289BBD5C1F9774EF00B8AF26 /* NestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				289BBD5D1F9774EF00B8AF26 /* AppDelegate.h */,
-				289BBD5E1F9774EF00B8AF26 /* AppDelegate.m */,
-				289BBD601F9774EF00B8AF26 /* ViewController.h */,
-				289BBD611F9774EF00B8AF26 /* ViewController.m */,
-				289BBD631F9774EF00B8AF26 /* Main.storyboard */,
-				289BBD661F9774EF00B8AF26 /* Assets.xcassets */,
-				289BBD681F9774EF00B8AF26 /* LaunchScreen.storyboard */,
-				289BBD6B1F9774EF00B8AF26 /* Info.plist */,
-				289BBD6C1F9774EF00B8AF26 /* main.m */,
+				289BBD851F97A7B800B8AF26 /* Controllers */,
+				289BBD841F97A7B400B8AF26 /* Model */,
+				289BBDAB1F98F3CE00B8AF26 /* Entity */,
+				289BBD831F97A78C00B8AF26 /* Views */,
+				289BBD821F97A77300B8AF26 /* SupportingFiles */,
 			);
 			path = NestDemo;
 			sourceTree = "<group>";
@@ -101,6 +139,78 @@
 				289BBD781F9774EF00B8AF26 /* Info.plist */,
 			);
 			path = NestDemoTests;
+			sourceTree = "<group>";
+		};
+		289BBD821F97A77300B8AF26 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				289BBD5D1F9774EF00B8AF26 /* AppDelegate.h */,
+				289BBD5E1F9774EF00B8AF26 /* AppDelegate.m */,
+				289BBD661F9774EF00B8AF26 /* Assets.xcassets */,
+				289BBD681F9774EF00B8AF26 /* LaunchScreen.storyboard */,
+				289BBD6B1F9774EF00B8AF26 /* Info.plist */,
+				289BBD6C1F9774EF00B8AF26 /* main.m */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		289BBD831F97A78C00B8AF26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				289BBD631F9774EF00B8AF26 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		289BBD841F97A7B400B8AF26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				289BBD8F1F97B1B100B8AF26 /* Configs.h */,
+				289BBD9C1F98CD2200B8AF26 /* Configs.m */,
+				289BBD891F97AEDF00B8AF26 /* AccessToken.h */,
+				289BBD8A1F97AEDF00B8AF26 /* AccessToken.m */,
+				289BBD901F97B2B900B8AF26 /* AuthManager.h */,
+				289BBD911F97B2B900B8AF26 /* AuthManager.m */,
+				289BBD991F98CBFC00B8AF26 /* SessionManager.h */,
+				289BBD9A1F98CBFC00B8AF26 /* SessionManager.m */,
+				289BBDAF1F99E0C500B8AF26 /* ThermostatManager.h */,
+				289BBDB01F99E0C500B8AF26 /* ThermostatManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		289BBD851F97A7B800B8AF26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289BBD861F97A7ED00B8AF26 /* DevicesTableViewController.h */,
+				289BBD871F97A7ED00B8AF26 /* DevicesTableViewController.m */,
+				284FD0321F99FD06007CA191 /* LogoutCell.h */,
+				284FD0331F99FD06007CA191 /* LogoutCell.m */,
+				289BBD8C1F97B0F500B8AF26 /* LoginViewController.h */,
+				289BBD8D1F97B0F500B8AF26 /* LoginViewController.m */,
+				289BBD931F97B78800B8AF26 /* RootNavigationViewController.h */,
+				289BBD941F97B78800B8AF26 /* RootNavigationViewController.m */,
+				289BBD961F97C4B300B8AF26 /* WebViewController.h */,
+				289BBD971F97C4B300B8AF26 /* WebViewController.m */,
+				289BBDA71F98F16500B8AF26 /* UIViewController+Spinner.h */,
+				289BBDA81F98F16500B8AF26 /* UIViewController+Spinner.m */,
+				289BBDAC1F98F7A900B8AF26 /* ThermostatViewController.h */,
+				289BBDAD1F98F7A900B8AF26 /* ThermostatViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		289BBDAB1F98F3CE00B8AF26 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				289BBD9E1F98E14F00B8AF26 /* Thermostat.h */,
+				289BBD9F1F98E14F00B8AF26 /* Thermostat.m */,
+				289BBDA11F98E15E00B8AF26 /* Camera.h */,
+				289BBDA21F98E15E00B8AF26 /* Camera.m */,
+				289BBDA41F98E1C400B8AF26 /* Device.h */,
+				289BBDA51F98E1C400B8AF26 /* Device.m */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +315,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289BBD621F9774EF00B8AF26 /* ViewController.m in Sources */,
+				289BBDA01F98E14F00B8AF26 /* Thermostat.m in Sources */,
+				289BBD881F97A7ED00B8AF26 /* DevicesTableViewController.m in Sources */,
+				289BBDA91F98F16500B8AF26 /* UIViewController+Spinner.m in Sources */,
+				289BBD921F97B2B900B8AF26 /* AuthManager.m in Sources */,
+				289BBDB11F99E0C500B8AF26 /* ThermostatManager.m in Sources */,
+				289BBD951F97B78800B8AF26 /* RootNavigationViewController.m in Sources */,
+				289BBDA31F98E15E00B8AF26 /* Camera.m in Sources */,
+				289BBD9B1F98CBFC00B8AF26 /* SessionManager.m in Sources */,
+				289BBDAE1F98F7A900B8AF26 /* ThermostatViewController.m in Sources */,
+				289BBD981F97C4B300B8AF26 /* WebViewController.m in Sources */,
+				289BBD9D1F98CD2200B8AF26 /* Configs.m in Sources */,
 				289BBD6D1F9774EF00B8AF26 /* main.m in Sources */,
 				289BBD5F1F9774EF00B8AF26 /* AppDelegate.m in Sources */,
+				284FD0341F99FD06007CA191 /* LogoutCell.m in Sources */,
+				289BBDA61F98E1C400B8AF26 /* Device.m in Sources */,
+				289BBD8B1F97AEDF00B8AF26 /* AccessToken.m in Sources */,
+				289BBD8E1F97B0F500B8AF26 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NXD7C56LEN;
 				INFOPLIST_FILE = NestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavelcauselov.NestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NXD7C56LEN;
 				INFOPLIST_FILE = NestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavelcauselov.NestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

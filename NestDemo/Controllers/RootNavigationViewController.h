@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootNavigationViewController.h
 //  NestDemo
 //
 //  Created by Pavel Kozlov on 10/18/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootNavigationViewController : UINavigationController
 
 @end
-
